@@ -1,7 +1,7 @@
 # SimpleStaticScanner
 
-git tag -a -m "Initial Commit" v1                                                                                                  
+git commit -am "Updated XX"
 
-git push --follow-tags
+git push
 
 git tag -a -m "Update 2" v2; git push --follow-tags 
