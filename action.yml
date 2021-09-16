@@ -1,0 +1,7 @@
+name: 'Simple Static Scanner'
+description: 'Scan Code'
+runs:
+  using: "composite"
+  steps
+    - run: ${{ github.action_path }}/scanner.sh
+      shell: bash
